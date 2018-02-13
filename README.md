@@ -1,7 +1,7 @@
 # socialMonsterFront-end
 
 INSTALLATION AND USAGE STEPS
-- Firstly, you need to install and start socialMonsterFront-end repository.
+- Firstly, you need to install and start socialMonsterBack-end repository.
 - Install Project: run 'npm install' command in root folder.
 - Start Project: run 'npm start' command.
 - Sign in with Facebook or Twitter. Email login has not implemented yet.
