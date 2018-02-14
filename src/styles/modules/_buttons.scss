@@ -1,0 +1,13 @@
+%socialButton {
+  width: 34px;
+  height: 34px;
+  margin: 12px 12px 12px 0px;
+}
+
+.linkedInButton {
+  @extend %socialButton;
+}
+
+.twitterButton {
+  @extend %socialButton;
+}

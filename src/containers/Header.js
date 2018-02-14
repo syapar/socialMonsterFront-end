@@ -12,10 +12,13 @@ let Header = ({  signOut }) => {
     return(
         <div>
             <PageLink page={PageTypes.HOME}>
-                HOME
+                - HOME
             </PageLink>
             <PageLink page={PageTypes.MY_ACCOUNT}>
-                MY ACCOUNT
+                - MY ACCOUNT
+            </PageLink>
+            <PageLink page={PageTypes.ABOUT_US}>
+                - ABOUT US -
             </PageLink>
             <Button
                 id='signOutButton'
