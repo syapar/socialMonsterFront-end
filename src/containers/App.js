@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 
 import Header from './Header';
 import Home from '../components/Home';
-import AboutUs from '../components/AboutUs';
 import Auth from './Auth';
 import MyAccount from './MyAccount';
 import { Route,withRouter } from 'react-router-dom';
@@ -40,7 +39,6 @@ class App extends Component{
                     <Route exact path='/' component={Home} />
                     <Route path={`/${PageTypes.HOME}/:filter?`} component={Home} />
                     <Route path={`/${PageTypes.MY_ACCOUNT}`} component={MyAccount} />
-                    <Route path={`/${PageTypes.ABOUT_US}`} component={AboutUs} />
                 </switch>
             </div>
         );

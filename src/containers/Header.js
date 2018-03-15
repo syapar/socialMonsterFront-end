@@ -17,9 +17,6 @@ let Header = ({  signOut }) => {
             <PageLink page={PageTypes.MY_ACCOUNT}>
                 - MY ACCOUNT
             </PageLink>
-            <PageLink page={PageTypes.ABOUT_US}>
-                - ABOUT US -
-            </PageLink>
             <Button
                 id='signOutButton'
                 bsSize='sm'

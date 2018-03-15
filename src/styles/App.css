@@ -4,58 +4,6 @@
   font-weight: normal;
   font-style: normal; }
 
-.header {
-  background-image: url("/images/Header-Desktop.png");
-  width: 1440px;
-  height: 800px;
-  background-size: 1440px 800px;
-  background-position: center; }
-
-.footer {
-  background-image: url("/images/footer.png");
-  width: 1440px;
-  height: 406px;
-  background-size: 1440px 406px;
-  background-position: center; }
-
-.executiveListItem {
-  width: 540px;
-  margin: 40px 20px 40px 20px; }
-  .executiveListItem .profileImage {
-    width: 200px;
-    height: 265px; }
-  .executiveListItem .content {
-    width: 300px; }
-
-.thwWiderListItem {
-  width: 168px;
-  height: 223px;
-  margin: 15px; }
-  .thwWiderListItem .profileImage {
-    width: 168px;
-    height: 223px; }
-  .thwWiderListItem .content {
-    width: 300px; }
-
-.ourLocationListItem {
-  width: 324px;
-  margin-left: auto;
-  margin-right: auto; }
-  .ourLocationListItem .profileImage {
-    width: 324px;
-    height: 207px; }
-
-.fontSmall {
-  font-size: 14px;
-  color: #777777; }
-
-.fontMedium {
-  font-size: 18px;
-  color: #777777; }
-
-.fontBig {
-  font-size: 22px; }
-
 .linkedInButton, .twitterButton {
   width: 34px;
   height: 34px;
