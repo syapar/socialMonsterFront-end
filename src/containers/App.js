@@ -20,7 +20,6 @@ class App extends Component{
 
     render(){
         const {isSignedIn, isSignedInRequested, location } = this.props;
-        let mainContent;
 
         if(!isSignedIn){
             if(isSignedInRequested){
@@ -29,7 +28,7 @@ class App extends Component{
                 if(location.pathname === `/${PageTypes.REGISTER}`){
                     return <Route component={Register} />;
                 }else{
-                    return <Route component={AboutUs} />;
+                    return <Route component={Auth} />;
                 }
             }
         }
