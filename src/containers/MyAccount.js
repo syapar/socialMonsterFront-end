@@ -4,7 +4,6 @@ import { withRouter } from 'react-router-dom';
 import { Button, Glyphicon} from 'react-bootstrap';
 import qs from 'querystring';
 
-import * as UserProviderTypes from '../constants/UserProviderType';
 import { deleteSocialAccount, updateSocialAccounts } from '../actions/firebaseApiActions';
 import * as twitterApi  from '../api/twitterApi';
 import * as facebookApi  from '../api/facebookApi';

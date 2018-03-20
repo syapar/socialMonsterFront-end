@@ -1,7 +1,7 @@
 import { normalize } from 'normalizr';
 import * as schema from './schema';
 import * as api from '../api/fakeApi';
-import { getIsFetching, getIsFacebookReady, getIsTwitterReady, getSocialAccountsData } from '../reducers';
+import { getIsFetching, getSocialAccountsData } from '../reducers';
 import * as ActionTypes from '../constants/ActionTypes';
 import * as UserProviderTypes from '../constants/UserProviderType';
 import * as facebookApi from '../api/facebookApi';
@@ -47,7 +47,6 @@ export const fetchPosts = (filter) => (dispatch, getState) => {
     });
 
 };
-
 
 export const addPost = (text, title) => (dispatch) =>
     api.addPost(text, title).then((response) => {

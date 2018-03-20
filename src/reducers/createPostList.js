@@ -1,6 +1,5 @@
 import { combineReducers } from 'redux';
 import * as ActionTypes from './../constants/ActionTypes';
-import * as FilterTypes from './../constants/FilterTypes';
 
 const createList = (filter) => {
     const ids = (state = [], action) => {
