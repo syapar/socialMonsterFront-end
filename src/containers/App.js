@@ -10,13 +10,7 @@ import Register from '../components/Register';
 import * as PageTypes from '../constants/PageTypes';
 import { getIsSignedIn, getIsSignedInRequested } from '../reducers';
 
-
-
 class App extends Component{
-    constructor(props) {
-        super(props);
-    }
-
     render(){
         const {isSignedIn, isSignedInRequested, location } = this.props;
 

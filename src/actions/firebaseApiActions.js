@@ -1,10 +1,7 @@
 import  firebase  from 'firebase';
 import 'firebase/firestore';
-
 import * as ActionTypes from '../constants/ActionTypes';
 import * as UserProviderTypes from '../constants/UserProviderType';
-import { fetchPosts } from './postActions';
-import * as FilterTypes from '../constants/FilterTypes';
 
 export const addSocialAccount = (uid,providerType,response) => (dispatch) => {
     let accessToken,expires,socialAccountId;
