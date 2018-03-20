@@ -14,11 +14,6 @@ class RegisterFrom extends Component{
     }
 
     render (){
-        // return(
-        //     <div>aaaaaa</div>
-        // );
-
-
         const { userData, isSignedIn } = this.props;
 
         if(isSignedIn){
