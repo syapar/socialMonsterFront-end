@@ -120,10 +120,6 @@ class Auth extends Component {
     }
 };
 
-// const mapStateToProps =  (state) => ({
-//     isSignedIn:getIsSignedIn(state)
-// });
-
 const mapDispatchToProps = (dispatch) => ({
     signIn : bindActionCreators(signIn,dispatch),
 });
